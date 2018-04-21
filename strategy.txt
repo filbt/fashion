@@ -1,0 +1,29 @@
+images
+    make smaller
+    loop into numpy arrays
+
+create X array containing image arrays
+
+^ all this possibly from keras.preprocessing
+
+create Y array containing label vectors
+    from the dataframe we already have
+
+split into train/validation datasets
+
+replace last layer of resnet model
+
+lock deep layers (all except 1? 2?)
+
+train with our X_train, Y_train
+    earlystopping
+    modelcheckpoint
+    sigmoid
+
+for submission:
+    download test images
+    probably make smaller, load into numpy arrays
+    create a dataframe and format according to sample_submission.csv
+
+submit, enjoy!
+
