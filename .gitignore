@@ -1,4 +1,6 @@
 images/
 images100/
+images_test/
+results/
 data/
 .ipynb_checkpoints
